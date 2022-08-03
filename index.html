@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>rps .</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="rps-container">
+      <h2>Rock Paper & Scissor</h2>
+      <div id="rps-div">
+        <!-- <button id="rock-btn" class="rps-buttons" value="rock"><img src="./rock.png" alt="rock"></button> -->
+        <img id="rock-btn" class="rps-buttons" name="rock" src="./rock.png" alt="rock">
+        <!-- <button id="paper-btn" class="rps-buttons" value="paper"><img src="./paper.png" alt="paper"></button> -->
+        <img id="paper-btn" class="rps-buttons" name="paper" src="./paper.png" alt="paper">
+        <!-- <button id="scissor-btn" class="rps-buttons" value="scissor"><img src="./scissor.png" alt="scissor"></button> -->
+        <img id="scissor-btn" class="rps-buttons" name="scissor" src="./scissor.png" alt="scissor">
+      </div>
+      <div id="clear-div">
+        <!-- <button id="clear-btn"><img id="clear-btn" src="./reset.png" alt="refresh image"></button> -->
+        <img id="clear-btn" src="./reset.png" alt="refresh image">
+      </div>
+      <div id="result-div">
+        <p id="result">result.</p>
+      </div>
+      <div id="score-div">
+        <h1 id="score">score</h1>
+        <h2 id=score-value>0</h2>
+      </div>
+    </div> 
+
+    <script src="./rps.js"></script>
+  </body>
+</html>
